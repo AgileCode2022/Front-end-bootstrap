@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: darkgray;
+}
+
+
+.logoPrincipal{
+    width: 150px;
+    height: 150px;
+}
+
+.iconoHeader{
+    width: 25px;
+    height: 25px;
+}
+
+.iconoNav{
+    width: 30px;
+    height: 30px;
+}
+
+.banner{
+    height: 100vh;
+    width: 15vw;
+    object-fit: cover;
+}
+
+.gridOpciones {
+    display: grid;   
+    grid-template-columns: repeat(5, 170px);
+    
+    grid-template-areas: "todos enDirecto finalizado proximos calendario" ;
+}
+
+.todos{
+    grid-area: a;
+    background-color: darkkhaki;
+}
+
+.enDirecto{
+    grid-area: b;
+}
+
+.finalizado{
+    grid-area: c;
+}
+
+.proximos{
+    grid-area: d;
+}
+
+.calendario{
+    grid-area: e;
+    text-align: end;
+}
+
+.gridEventos{
+    display: grid;
+    grid-template-columns: 825px;
+    grid-template-rows: repeat(3, 30px);
+    grid-template-areas: "deporte" "pais" "resultado";
+    border-style: ridge;
+    
+}
+
+.deporte{
+    grid-area: deporte;
+}
+
+.pais{
+    grid-area: pais;
+}
+
+.evento{
+    grid-area: resultado;
+}
