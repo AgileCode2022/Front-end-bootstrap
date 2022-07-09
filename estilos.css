@@ -1,13 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
 body{
     background-color: #1EA4D9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 header{
     background-color: #13698b;
 }
 
+.marginLeft{
+    margin-left: 10px;
+}
 
 .logoPrincipal{
     width: 150px;
@@ -34,7 +39,7 @@ header{
 }
 
 .banner{
-    height: 100vh;
+    height: 115vh;
     width: 15vw;
     object-fit: cover;
 }
@@ -52,6 +57,12 @@ header{
     margin-bottom: 0px;
     
 }
+
+.ml-2{
+    margin-left: 1rem;
+}
+
+
 
 .alineacion{
     text-align: center;
